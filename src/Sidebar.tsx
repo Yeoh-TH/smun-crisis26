@@ -4,9 +4,9 @@ import './App.css';
 function Sidebar(){
     return(
         <div className='sidebar'>
-            <a href="#/MND">Im adding tabs here whenever I feel like it</a>
-
-            <a href="#/">Another selection or whatever</a>
+            <a href="#/">Homepage</a>
+            <a href="#/MND">MND</a>
+            <a href="#/MOTC">MOTC</a>
         </div>
     )
 }

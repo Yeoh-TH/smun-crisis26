@@ -9,21 +9,38 @@
   flex-direction: row;
 }
 
+li{
+  text-align: left;
+  font-size: 2vw;
+}
+
+p{
+  font-size: 2vw;
+  text-align: justify;
+  padding: 10px;
+  padding-bottom: 0px;
+}
+
 .sidebar{
   flex: 1;
-  width: 15vw;
-  height: 100vh;
+  position:relative;
+  top: 0;
+  width: auto;
+  height: 300vh;
   background-color: #f0f0f0;
   border-right: 1px solid #ddd;
 }
 
 .sidebar a{
   display: block;
-  padding: 10px 15px;
+  padding: 5px 5px;
+  font-size: 2vw;
   color: #001eff;
   text-decoration: none;
   background-color: #ddd;
   margin-top: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
   border-radius: 10px;
 }
 

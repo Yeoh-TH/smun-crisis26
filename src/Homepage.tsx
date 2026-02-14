@@ -8,7 +8,7 @@ function Homepage(){
 
         <div className="container">
         <Sidebar/>
-        <div>
+        <div style={{flex:"5"}}>
         <img src={KMTLogo} className='KMT-emblem'></img>
          <div style={{fontSize:'10vw', textAlign:'center'}}> I love communists </div>
          </div>
