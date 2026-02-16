@@ -1,7 +1,10 @@
 import {Routes, Route} from 'react-router-dom';
 import Homepage from './Homepage';
+import Military from './Military';
+import Army from './Army';
 import MND from './MND';
 import MOTC from './MOTC';
+import PWD from './PWD';
 
 const App = () => {
 
@@ -9,8 +12,11 @@ const App = () => {
     <>
       <Routes>
         <Route path="/" element={<Homepage />}/>
+        <Route path="/military" element={<Military />}/>
+        <Route path="/army" element={<Army/>}/>
         <Route path="/MND" element={<MND />}/>
         <Route path='/MOTC' element={<MOTC/>}/>
+        <Route path='/PWD' element={<PWD/>}/>
       </Routes>
     </>
   )

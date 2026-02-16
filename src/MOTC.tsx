@@ -27,7 +27,6 @@ function MOTC() {
                 <h2>Government Corporations</h2>
                 <ul>
                     <li>Chunghwa Post Co., Ltd.</li>
-                    <li>Taiwan Railways Administration</li>
                     <li>Kaohsiung Port Land Development Corporation, Ltd.</li>
                 </ul>
             </div>
